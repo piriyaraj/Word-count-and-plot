@@ -14,8 +14,8 @@ etc. The same applies for words. Prepositions and articles likethe, a, and, inar
 used than other words. In project 2, you are supposed to observe this characteristic in the English
 language using a program. A file or multiple files containing English text will be sent to the pro-
 gram, and the program should give an output (word or character frequencies) as a horizontal bar
-chart printed on the terminal.
-
+chart printed on the terminal.<br />
+![plot graph for the word count](word%20coutn%20plot.png)<br />
 Figure 1: The expected output from the program. The most frequently used words are displayed as
 a horizontal bar chart
 
@@ -75,14 +75,13 @@ to find out what exactly these Unicode print. To print Unicode you may use print
 printf(”\u2502”);
 
 
-## 3 Breakdown of the marks
 
-### 3.1 Basic functionality - 50%
+### 3.1 Basic functionality 
 
 If the program can read multiple files, store words or characters and then produce the maximum N
 number of frequencies, then the program will be given 50 marks (even without a graph).
 
-### 3.2 Plotting the chart - 20%
+### 3.2 Plotting the chart 
 
 If the graph is plotted with correct output and as expected, the program will be given another 20
 marks.
@@ -91,22 +90,10 @@ run the program.
 ./freqv1 -c –scaled -l 10 file1 file2 file ...
 where, -c can be changed to -w and 10 can be any positive integer
 
-### 3.3 Input arguments and error handling - 30%
+### 3.3 Input arguments and error handling 
 
 As you can see, the program has many arguments to be processed, and they may appear any place
 in the argument list. If your program is capable of handling arguments as the example binary you
 are given, you may score 30 marks more.
 
-## 4 Submission
-
-Submit a single .c file rename it as the following pattern where xxx is your registration number.
-17xxxProject2.c The project will be auto-marked, please make sure that your program replicates
-the same functionality as given sample program.
-
-## 5 Important
-
-Under no circumstance, you should copy somebody else’s code. Copying someone else’s code or
-showing your source code to anyone else will earn you zero mark for the whole project. (Hope you
-got experience from your Project 1 and Labs) Therefore, put some honest effort to earn the marks
-for project 2.
 
